@@ -9,7 +9,7 @@ const about = {
   name: 'Haolin Wu',
   role: 'Full Stack Engineer',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+    'Haolin is highly motivated and deeply passionate about technology and its future. With his experience in teaching at secondary and tertiary levels, alongside industry software developer experience, he is committed to making an impact, and creating change through application of his knowledge and skills.',
   resume: 'https://example.com',
   social: {
     linkedin: 'https://www.linkedin.com/in/haolin-wu-222188160/',
