@@ -21,52 +21,75 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'UWA Pharmacy',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    image: 'https://images.unsplash.com/photo-1615789591457-74a63395c990?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZG9tZXN0aWMlMjBjYXR8ZW58MHx8MHx8&w=1000&q=80',
+      "A case study application written to manage, create and teach the University of Western Australia's pharmacy students a variety of scenarios during their placements.",
+    stack: ['Django', 'Python', 'HTML5', 'SASS', 'Bootstrap'],
+    image: 'case.png',
+    sourceCode: 'https://github.com/tim-ings/case',
+  },
+  {
+    name: 'Whitehat',
+    description:
+      "A Discord bot and REST API Framework written in both JavaScript and Django for the the University of Western Australia's Ethical Hacking Club to manage events and other administrative tasks.",
+    stack: ['JavaScript', 'Python', 'Webhooks', 'JQuery', 'Django', 'REST API'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
   },
   {
-    name: 'Project 2',
+    name: 'Wombat',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
+      'An algorithm and machine learning model designed to read tabular data and forms, and produce machine readable data, usable for data visualisation and processing.',
+    stack: ['Python', 'Tensorflow', 'OCR', 'Table Detection']
+  },
+  {
+    name: 'Fishing Tracker',
+    description:
+      'An application built using Flask to record and visualise the most popular fish and places within the Perth region, while surveying users on their experiences.',
+    stack: ['Flask', 'Python', 'CSS', 'HTML5'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
   },
   {
-    name: 'Project 3',
+    name: 'Farming Calculator',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
+      'A Discord bot written in TypeScript to calculate the next breeding tick of an animal within RuneScape, an online MMO. It uses cronjobs to broadcast and send push notifications to a user.',
+    stack: ['cron', 'TypeScript'],
+    sourceCode: 'https://github.com',
+    livePreview: 'https://github.com',
+  },
+  {
+    name: 'Macro Builder',
+    description:
+      'A versatile keyboard macro built on top of AutoHotKey and Image Recognition, to perform tasks depending on the conditions of screen regions.',
+    stack: ['AHK', 'Image Recognition'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
   },
 ]
 
 const skills = [
-  // skills can be added or removed
-  // if there are no skills, Skills section won't show up
-  'HTML',
+  'Python',
+  'Django',
+  'Flask',
+  'CI/CD',
+  'TDD',
+  'HTML5',
   'CSS',
+  'SASS',
   'JavaScript',
   'TypeScript',
   'React',
   'Redux',
-  'SASS',
-  'Material UI',
+  'Java',
+  'Swift',
   'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
+  'AWS'
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'haolin97@mail.com',
 }
 
 export { header, about, projects, skills, contact }
