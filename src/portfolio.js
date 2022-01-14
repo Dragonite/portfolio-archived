@@ -6,10 +6,10 @@ const header = {
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'Haolin Wu',
+  name: 'Haolin',
   role: 'Full Stack Engineer',
   description:
-    'Haolin is highly motivated and deeply passionate about technology and its future. With his experience in teaching at secondary and tertiary levels, alongside industry software developer experience, he is committed to making an impact, and creating change through application of his knowledge and skills.',
+    "I'm highly motivated and deeply passionate about technology and its future. With my experience in the software development industry, alongside my tertiary teaching experience, I am committed to making an impact in creating change through application of my knowledge and skills.",
   resume: 'https://example.com',
   social: {
     linkedin: 'https://www.linkedin.com/in/haolin-wu-222188160/',
@@ -23,7 +23,7 @@ const projects = [
   {
     name: 'UWA Pharmacy',
     description:
-      "A case study application written to manage, create and teach the University of Western Australia's pharmacy students a variety of scenarios during their placements.",
+      "A case study website written to manage, create and teach the University of Western Australia's pharmacy students a variety of scenarios during their placements.",
     stack: ['Django', 'Python', 'HTML5', 'SASS', 'Bootstrap'],
     image: 'case.png',
     sourceCode: 'https://github.com/320011/case',
@@ -39,14 +39,14 @@ const projects = [
   {
     name: 'Wombat',
     description:
-      'An algorithm and machine learning model designed to read tabular data and forms, while ingesting data from other sources, and produce machine readable data for visualisation and processing.',
+      'An algorithm and machine learning model designed to read tabular data and forms, while ingesting data from other sources, and produce machine readable data for visualisation and processing through a web application.',
     stack: ['Python', 'Tensorflow', 'OCR', 'Table Detection'],
     image: 'wombat.png'
   },
   {
     name: 'Fishing Tracker',
     description:
-      'An application built using Flask to record and visualise the most popular fish and places within the Perth region, while surveying users on their experiences.',
+      'A website built using Flask to record and visualise the most popular fish and places within the Perth region, while surveying users on their experiences.',
     stack: ['Flask', 'Python', 'CSS', 'HTML5'],
     sourceCode: 'https://github.com/Dragonite/fishing',
     image: 'fishing.png'
