@@ -23,7 +23,7 @@ const projects = [
   {
     name: 'UWA Pharmacy',
     description:
-      "A case study website written to manage, create and teach the University of Western Australia's pharmacy students a variety of scenarios during their placements.",
+      "A case study website written to manage, create, and teach the University of Western Australia's pharmacy students a variety of scenarios during their placements.",
     stack: ['Django', 'Python', 'HTML5', 'SASS', 'Bootstrap'],
     image: 'case.png',
     sourceCode: 'https://github.com/320011/case',
@@ -31,7 +31,7 @@ const projects = [
   {
     name: 'Whitehat',
     description:
-      "A Discord bot and REST API Framework written in both JavaScript and Django for the the University of Western Australia's Ethical Hacking Club to manage events and other administrative tasks. Additionally, uses API webhooks to deliver event messages through user forms as an alternative.",
+      "A Discord bot and REST API Framework written in both JavaScript and Django for the University of Western Australia's Ethical Hacking Club to manage events and other administrative tasks. Additionally, Whitehat uses API webhooks to deliver event messages through user forms as an alternative to bot messages.",
     stack: ['JavaScript', 'Python', 'Webhooks', 'JQuery', 'Django', 'REST API'],
     sourceCode: 'https://github.com/Dragonite/whitehat',
     image: 'whitehat.png'
@@ -39,14 +39,14 @@ const projects = [
   {
     name: 'Wombat',
     description:
-      'An algorithm and machine learning model designed to read tabular data and forms, while ingesting data from other sources, and produce machine readable data for visualisation and processing through a web application.',
+      'An algorithm and machine learning model designed to read tabular data and forms, while ingesting data from external sources, while producing machine readable data for visualisation and processing through a web application.',
     stack: ['Python', 'Tensorflow', 'OCR', 'Table Detection'],
     image: 'wombat.png'
   },
   {
     name: 'Fishing Tracker',
     description:
-      'A website built using Flask to record and visualise the most popular fish and places within the Perth region, while surveying users on their experiences.',
+      'A website built using Flask to record and visualise the most popular fish and their locations within the Perth region, while surveying users on their fishing experiences.',
     stack: ['Flask', 'Python', 'CSS', 'HTML5'],
     sourceCode: 'https://github.com/Dragonite/fishing',
     image: 'fishing.png'
@@ -62,7 +62,7 @@ const projects = [
   {
     name: 'Macro Builder',
     description:
-      'A versatile keyboard macro built on top of AutoHotKey and Image Recognition, to perform tasks depending on the conditions of screen regions.',
+      'A versatile keyboard macro built on top of AutoHotKey and Image Recognition to perform tasks depending on the conditions of screen regions.',
     stack: ['AHK', 'Image Recognition'],
     sourceCode: 'https://github.com/Dragonite/imagesearch',
     image: 'macrobuilder.png'
