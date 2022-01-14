@@ -1,6 +1,6 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://dragonite.github.io/portfolio/',
+  homepage: 'https://www.haolin.dev',
   title: "Haolin Wu's Portfolio",
 }
 
@@ -10,7 +10,7 @@ const about = {
   role: 'Full Stack Engineer',
   description:
     "I'm highly motivated and deeply passionate about technology and its future. With my experience in the software development industry, alongside my tertiary teaching experience, I am committed to making an impact in creating change through application of my knowledge and skills.",
-  resume: 'https://example.com',
+  resume: 'resume.pdf',
   social: {
     linkedin: 'https://www.linkedin.com/in/haolin-wu-222188160/',
     github: 'https://github.com/dragonite',
@@ -64,7 +64,8 @@ const projects = [
     description:
       'A versatile keyboard macro built on top of AutoHotKey and Image Recognition, to perform tasks depending on the conditions of screen regions.',
     stack: ['AHK', 'Image Recognition'],
-    sourceCode: 'https://github.com',
+    sourceCode: 'https://github.com/Dragonite/imagesearch',
+    image: 'macrobuilder.png'
   },
 ]
 
@@ -89,7 +90,7 @@ const skills = [
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'haolin97@mail.com',
+  email: 'haolin97@gmail.com',
 }
 
 export { header, about, projects, skills, contact }

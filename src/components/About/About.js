@@ -19,7 +19,7 @@ const About = () => {
 
       <div className='about__contact center'>
         {resume && (
-          <a href={resume}>
+          <a href={`${process.env.PUBLIC_URL}/${resume}`}>
             <span type='button' className='btn btn--outline'>
               Resume
             </span>
