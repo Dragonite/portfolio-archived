@@ -26,37 +26,38 @@ const projects = [
       "A case study application written to manage, create and teach the University of Western Australia's pharmacy students a variety of scenarios during their placements.",
     stack: ['Django', 'Python', 'HTML5', 'SASS', 'Bootstrap'],
     image: 'case.png',
-    sourceCode: 'https://github.com/tim-ings/case',
+    sourceCode: 'https://github.com/320011/case',
   },
   {
     name: 'Whitehat',
     description:
-      "A Discord bot and REST API Framework written in both JavaScript and Django for the the University of Western Australia's Ethical Hacking Club to manage events and other administrative tasks.",
+      "A Discord bot and REST API Framework written in both JavaScript and Django for the the University of Western Australia's Ethical Hacking Club to manage events and other administrative tasks. Additionally, uses API webhooks to deliver event messages through user forms as an alternative.",
     stack: ['JavaScript', 'Python', 'Webhooks', 'JQuery', 'Django', 'REST API'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    sourceCode: 'https://github.com/Dragonite/whitehat',
+    image: 'whitehat.png'
   },
   {
     name: 'Wombat',
     description:
-      'An algorithm and machine learning model designed to read tabular data and forms, and produce machine readable data, usable for data visualisation and processing.',
-    stack: ['Python', 'Tensorflow', 'OCR', 'Table Detection']
+      'An algorithm and machine learning model designed to read tabular data and forms, while ingesting data from other sources, and produce machine readable data for visualisation and processing.',
+    stack: ['Python', 'Tensorflow', 'OCR', 'Table Detection'],
+    image: 'wombat.png'
   },
   {
     name: 'Fishing Tracker',
     description:
       'An application built using Flask to record and visualise the most popular fish and places within the Perth region, while surveying users on their experiences.',
     stack: ['Flask', 'Python', 'CSS', 'HTML5'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    sourceCode: 'https://github.com/Dragonite/fishing',
+    image: 'fishing.png'
   },
   {
     name: 'Farming Calculator',
     description:
       'A Discord bot written in TypeScript to calculate the next breeding tick of an animal within RuneScape, an online MMO. It uses cronjobs to broadcast and send push notifications to a user.',
     stack: ['cron', 'TypeScript'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    sourceCode: 'https://github.com/varrock/anachronia',
+    image: 'farming.png'
   },
   {
     name: 'Macro Builder',
@@ -64,7 +65,6 @@ const projects = [
       'A versatile keyboard macro built on top of AutoHotKey and Image Recognition, to perform tasks depending on the conditions of screen regions.',
     stack: ['AHK', 'Image Recognition'],
     sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
   },
 ]
 
